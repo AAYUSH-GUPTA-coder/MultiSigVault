@@ -1,10 +1,8 @@
-export const ERC20_CONTRACT_ADDRESS =
-  "0x3F78e84159741f6628cBa776B9005a53c485d120";
+const ERC20_CONTRACT_ADDRESS = "0x3F78e84159741f6628cBa776B9005a53c485d120";
 
-export const MULTI_SIG_WALLET_ADDRESS =
-  "0xccc8aFf496bCae6a05114dB4c27279d8b6D0942A";
+const MULTI_SIG_WALLET_ADDRESS = "0xccc8aFf496bCae6a05114dB4c27279d8b6D0942A";
 
-export const MULTI_SIG_WALLET_ABI = [
+const MULTI_SIG_WALLET_ABI = [
   { type: "constructor", stateMutability: "nonpayable" },
   {
     name: "OwnershipTransferred",
@@ -300,7 +298,7 @@ export const MULTI_SIG_WALLET_ABI = [
   },
 ];
 
-export const ERC20_ABI = [
+const ERC20_ABI = [
   {
     inputs: [
       { internalType: "string", name: "name", type: "string" },
